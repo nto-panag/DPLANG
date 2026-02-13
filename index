@@ -2,7 +2,7 @@
 <html lang="el-GR">
 <head>
     <meta charset="UTF-8">
-    <title>Feng Ultimate Tool</title>
+    <title>FengTool</title>
     <style>
         :root { 
             --accent: #7db37d; 
