@@ -191,11 +191,11 @@ opacity: 1 !important;
         }
 
         let msg = "ΠΡΟΣ: [player]" + player + "[/player]\n";
-        msg += "--------------------------------------\n";
+        msg += "____________________________________________\n";
         msg += "[color=#ff0000][b]ΩΡΑ ΕΠΙΘΕΣΗΣ: " + timeStr + "[/b][/color]\n";
         if(n1) msg += "[b]ΣΗΜΕΙΩΣΗ 1: " + n1 + "[/b]\n";
         if(n2) msg += "[b]ΣΗΜΕΙΩΣΗ 2: " + n2 + "[/b]\n";
-        msg += "--------------------------------------\n\n";
+        msg += "-------------Σ---Τ---Ο---Χ---Ο---Ι----------\n\n";
 
         const lines = rawList.split('\n');
         lines.forEach(line => {
@@ -213,7 +213,7 @@ opacity: 1 !important;
         if(!out.value) return;
         out.select();
         document.execCommand('copy');
-        alert("Αντιγράφηκε!");
+        alert("Αντιγράφηκε! ριχτο σημειωματάρειο");
     }
 </script>
 
